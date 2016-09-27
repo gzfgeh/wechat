@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/index/index",
+    "pages/index/index",
+    "pages/index/index",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#353535",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "iconPath": "images/home_b.png",
+      "selectedIconPath": "images/home_a.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/index/index",
+      "iconPath": "images/besttrade_b.png",
+      "selectedIconPath": "images/besttrade_a.png",
+      "text": "商城"
+    }, {
+      "pagePath": "pages/index/index",
+      "iconPath": "images/myorder_b.png",
+      "selectedIconPath": "images/myorder_a.png",
+      "text": "交易"
+    }, {
+      "pagePath": "pages/index/index",
+      "iconPath": "images/consult_b.png",
+      "selectedIconPath": "images/consult_a.png",
+      "text": "咨询"
+    }, {
+      "pagePath": "pages/index/index",
+      "iconPath": "images/my_b.png",
+      "selectedIconPath": "images/my_a.png",
+      "text": "我"
+    }]
+  },
+  "networkTimeout": {
+    "request": 120000
+  }
+}

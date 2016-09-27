@@ -1,0 +1,8 @@
+.slide-image{
+    height:300px;
+    width:100%;
+    display:block;
+}
+swiper{
+    height: 200px!important;
+}
