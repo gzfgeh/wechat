@@ -24,7 +24,7 @@
       "selectedIconPath": "images/home_a.png",
       "text": "首页"
     }, {
-      "pagePath": "pages/index/index",
+      "pagePath": "pages/market/market",
       "iconPath": "images/besttrade_b.png",
       "selectedIconPath": "images/besttrade_a.png",
       "text": "商城"

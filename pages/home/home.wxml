@@ -1,3 +1,9 @@
+<view width="100%" style="padding:2px 0;background:red; width:100%">
+  <view class="inputCity">
+  <input type="text" style="border: 1px solid red; border-radius:5px;margin:5px;background:#fff; padding-left:20%"/>
+  </view>
+  <view class="selectCity">选择</view>
+</view>
 <swiper indicator-dots="{{indicatorDots}}"
   autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
   <block wx:for="{{imgUrls}}">
