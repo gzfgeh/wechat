@@ -1,9 +1,16 @@
-<view width="100%" style="padding:2px 0;background:red; width:100%">
+<!--<view width="100%" style="padding:2px 0;background:red; width:100%">
   <view class="inputCity">
   <input type="text" style="border: 1px solid red; border-radius:5px;margin:5px;background:#fff; padding-left:20%"/>
   </view>
   <view class="selectCity">选择</view>
+</view>-->
+<view style="background:red;height:30px;padding:10px;">
+<view style="height:30px;background:#fff;border-radius:5px;">
+<view style="float:left; width:15%; line-height:30px" bindtap="popUpSelected">选择</view>
+<input type="text" style="border-left: 1px solid red;width:84%;height:30px;"/>
 </view>
+</view>
+
 <swiper indicator-dots="{{indicatorDots}}"
   autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
   <block wx:for="{{imgUrls}}">
@@ -12,3 +19,17 @@
     </swiper-item>
   </block>
 </swiper>
+
+<view class="group" style="text-align:center;">
+  <block wx:for="{{iconType}}">
+    <icon type="success" size="70" color="item"/>
+    <span>{{item}}</span>
+  </block>
+</view>
+
+<view class="group" style="text-align:center;">
+  <block wx:for="{{iconType}}">
+    <icon type="success" size="70" color="item"/>
+  </block>
+</view>
+

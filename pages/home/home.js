@@ -5,7 +5,8 @@ Page({
     indicatorDots: true,
     autoplay: true,
     interval: 2000,
-    duration: 1000
+    duration: 1000,
+    iconType:['info_circle', 'cancel', 'search', 'clear'],
   },
 
   onLoad:function(){
@@ -18,6 +19,9 @@ Page({
         console.log(error)
     });
     
+  },
+  popUpSelected: function(){
+    console.log("dddddd");
   }
 
 
