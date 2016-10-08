@@ -6,7 +6,7 @@
 </view>-->
 <view style="background:red;height:30px;padding:10px;">
 <view style="height:30px;background:#fff;border-radius:5px;">
-<view style="float:left; width:15%; line-height:30px" bindtap="popUpSelected">选择</view>
+<view style="float:left; width:15%; line-height:30px; text-align: center;" bindtap="popUpSelected" >选择</view>
 <input type="text" style="border-left: 1px solid red;width:84%;height:30px;"/>
 </view>
 </view>
@@ -20,16 +20,58 @@
   </block>
 </swiper>
 
-<view class="group" style="text-align:center;">
-  <block wx:for="{{iconType}}">
-    <icon type="success" size="70" color="item"/>
-    <span>{{item}}</span>
-  </block>
+<view style="width: 100%;margin:2% 0px;">
+  <view style="width:20%; height:40px; text-align:center;display:inline-block; padding:2%;">
+    <image src="../../images/home_a.png" style="width:80%; height:100%; padding:0 2%"></image>
+    <text style="font-size:15px;">现货资源</text>
+  </view>
+
+  <view style="width:20%; height:40px; text-align:center;display:inline-block;padding:2%;">
+    <image src="../../images/home_b.png" style="width:80%; height:100%; padding:0 2%"></image>
+    <text style="font-size:15px;">化交价格</text>
+  </view>
+
+  <view style="width:20%; height:40px; text-align:center;display:inline-block;padding:2%;">
+    <image src="../../images/consult_a.png" style="width:80%; height:100%; padding:0 2%"></image>
+    <text style="font-size:15px;">化交资讯</text>
+  </view>
+
+  <view style="width:20%; height:40px; text-align:center;display:inline-block;padding:2%;">
+    <image src="../../images/consult_b.png" style="width:80%; height:100%; padding:0 2%"></image>
+    <text style="font-size:15px;">化交报告</text>
+  </view>
 </view>
 
-<view class="group" style="text-align:center;">
-  <block wx:for="{{iconType}}">
-    <icon type="success" size="70" color="item"/>
-  </block>
+<view style="width: 100%;margin:2% 0px;">
+  <view style="width:20%; height:40px; text-align:center;display:inline-block; padding:2%;">
+    <image src="../../images/besttrade_a.png" style="width:80%; height:100%; padding:0 2%"></image>
+    <text style="font-size:15px;">我的交易</text>
+  </view>
+
+  <view style="width:20%; height:40px; text-align:center;display:inline-block;padding:2%;">
+    <image src="../../images/besttrade_b.png" style="width:80%; height:100%; padding:0 2%"></image>
+    <text style="font-size:15px;">数据中心</text>
+  </view>
+
+  <view style="width:20%; height:40px; text-align:center;display:inline-block;padding:2%;">
+    <image src="../../images/myorder_a.png" style="width:80%; height:100%; padding:0 2%"></image>
+    <text style="font-size:15px;">下游调研</text>
+  </view>
+
+  <view style="width:20%; height:40px; text-align:center;display:inline-block;padding:2%;">
+    <image src="../../images/myorder_b.png" style="width:80%; height:100%; padding:0 2%"></image>
+    <text style="font-size:15px;">敬请期待</text>
+  </view>
 </view>
+
+<view style="width:96%; height:1px; margin:2% 2% 0px; background:#333"></view>
+
+
+<view style="width: 100%; height:50px; ">
+  <image src="../../images/myorder_b.png" style="width:10%; height:50%;"></image>
+  <!--<text style="">数据中心</text>-->
+</view>
+
+<view style="width:80%; height:1px; background:#883"></view>
+
 
