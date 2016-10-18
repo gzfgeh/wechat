@@ -72,6 +72,16 @@
   <text style="">数据中心数据中心数据中心</text>
 </view>
 
-<view style="width:80%; height:1px; background:#883; padding:0 10%"></view>
+<view style="width:80%; height:10px; background:#883; padding:0 10%"></view>
 
+<view style="height: 40px; width:100%; display:flex; align-items:center;">
+  <view style="width:5px; height:20px; background:red;"></view>
+  <span style="color:red; font-weight:bold; margin-left:20px;">报盘</span>
+  <span style="color:red; margin-left:60px; border-bottom: 1px solid red; height:100%; line-height:100%;">全部</span>
+  <span style="color:red; margin-left:30px;">PP</span>
+  <span style="color:red; margin-left:30px;">PE</span>
+  <span style="color:red; margin-left:30px;">更多</span>
+</view>
+
+<view style="width:80%; height:2px; background:#883; padding:0 10%"></view>
 
