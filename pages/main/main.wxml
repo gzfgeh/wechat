@@ -1,0 +1,49 @@
+<!--轮播图-->
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="height:220px;">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+<!--图标区-->
+<view class="section">
+ <view class="section-item">
+ <image src="../../images/mainlist_1.png"></image>
+ <text class="section_title">实时报盘</text>
+ </view>
+   <view class="section-item">
+ <image src="../../images/mainlist_2.png"></image>
+ <text class="section_title">每日成交</text>
+ </view>
+  <view class="section-item">
+ <image src="../../images/mainlist_3.png"></image>
+ <text class="section_title">化交资讯</text>
+ </view>
+  <view class="section-item">
+ <image src="../../images/mainlist_4.png"></image>
+ <text class="section_title">化交报告</text>
+ </view>
+  <view class="section-item">
+ <image src="../../images/mainlist_5.png"></image>
+ <text class="section_title">石化专场</text>
+ </view>
+  <view class="section-item">
+ <image src="../../images/mainlist_6.png"></image>
+ <text class="section_title">下游调查</text>
+ </view>
+  <view class="section-item">
+ <image src="../../images/mainlist_7.png"></image>
+ <text class="section_title">数据中心</text>
+ </view>
+  <view class="section-item">
+ <image src="../../images/mainlist_8.png"></image>
+ <text class="section_title">期货时报</text>
+ </view>
+</view>
+<!--消息广播-->
+<view class="main_ad">
+<image src="../../images/annnounce_img.png"></image>
+<text>上海化交新版小程序上线啦</text>
+</view>
