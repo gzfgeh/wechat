@@ -1,4 +1,4 @@
-var config = require('../../utils/config.js');
+var config = require('../../utils/common.js');
 
 var idList = [];
 var clickList = [];

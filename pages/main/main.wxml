@@ -45,5 +45,78 @@
 <!--消息广播-->
 <view class="main_ad">
 <image src="../../images/annnounce_img.png"></image>
-<text>上海化交新版小程序上线啦</text>
+<text class="main_tip">上海化交新版小程序上线啦</text>
+</view>
+<!--报盘-->
+<view class="main-tab-head">
+<view class="main-tab-title">
+<span></span>
+<text>报盘</text>
+</view>
+<view class="cus-table-tab">
+                <span class="{{currentTab==0 ? 'active' : ''}}" bindtap="changeState" data-current="0">全部</span>
+                <span class="{{currentTab==1 ? 'active' : ''}}" bindtap="changeState" data-current="1">PP</span>
+                <span class="{{currentTab==2 ? 'active' : ''}}" bindtap="changeState" data-current="2">PE</span>
+                <span class="{{currentTab==3 ? 'active' : ''}}" bindtap="changeState" data-current="3">更多</span>
+            </view>
+</view>
+<view class="cus-main-table">
+<view class="row">
+<view class="col text-center">4902T</view>
+<view class="col text-center">上海浦东</view>
+<view class="col text-center green-color">29吨</view>
+<view class="col text-center red-color">200元/吨</view>
+</view>
+<view class="row">
+<view class="col text-center">4902T</view>
+<view class="col text-center">上海浦东</view>
+<view class="col text-center green-color">29吨</view>
+<view class="col text-center red-color">200元/吨</view>
+</view>
+<view class="row">
+<view class="col text-center">4902T</view>
+<view class="col text-center">上海浦东</view>
+<view class="col text-center green-color">29吨</view>
+<view class="col text-center red-color">200元/吨</view>
+</view>
+<view class="row">
+<view class="col text-center">4902T</view>
+<view class="col text-center">上海浦东</view>
+<view class="col text-center green-color">29吨</view>
+<view class="col text-center red-color">200元/吨</view>
+</view>
+</view>
+<!--成交-->
+<view class="main-tab-head">
+<view class="main-tab-title">
+<span></span>
+<text>成交</text>
+</view>
+
+</view>
+<view class="cus-main-table">
+<view class="row">
+<view class="col text-center">4902T</view>
+<view class="col text-center">上海浦东</view>
+<view class="col text-center green-color">29吨</view>
+<view class="col text-center red-color">200元/吨</view>
+</view>
+<view class="row">
+<view class="col text-center">4902T</view>
+<view class="col text-center">上海浦东</view>
+<view class="col text-center green-color">29吨</view>
+<view class="col text-center red-color">200元/吨</view>
+</view>
+<view class="row">
+<view class="col text-center">4902T</view>
+<view class="col text-center">上海浦东</view>
+<view class="col text-center green-color">29吨</view>
+<view class="col text-center red-color">200元/吨</view>
+</view>
+<view class="row">
+<view class="col text-center">4902T</view>
+<view class="col text-center">上海浦东</view>
+<view class="col text-center green-color">29吨</view>
+<view class="col text-center red-color">200元/吨</view>
+</view>
 </view>
