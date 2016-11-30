@@ -22,4 +22,7 @@
     -ms-flex: 1;display: block;padding: 5px;width: 100%;}
 .red-color{color: #ea5251;}
 .green-color{color: #45a162}
+.gray-color{color: #999999}
+.blue-color{color: #2b94ff}
 .text-center{text-align: center}
+.text-right{text-align: right}

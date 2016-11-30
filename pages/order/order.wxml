@@ -1,3 +1,57 @@
-<view class="container">
-<text>交易</text>
+<view class="gray-bg">
+<!--头部-->
+<view class="order-title">
+<view class="red-color">999,999.89</view>
+<view class="title-tip">账户资金余额（元）</view>
+</view>
+<view class="myorder">
+<text>我的订单</text>
+<text class="gray-color text-right">查看全部订单</text>
+</view>
+<view class="orderwait">
+<text>待处理事项</text>
+</view>
+<view class="orderlist">
+<view class="row">
+<view class="col">收到的询盘</view>
+<view class="col">待发提货通知</view>
+<view class="col">待确认溢短</view>
+</view>
+<view class="row secondrow">
+<view class="col">待支付</view>
+<view class="col">待申请交收</view>
+<view class="col">待签收</view>
+</view>
+</view>
+<view class="orderwait">
+<text>交易服务</text>
+</view>
+<view class="orderNum">
+<view class="row">
+<view class="col">
+<image src="../../images/orderlist1.png"></image>
+<view>我的卖盘</view></view>
+<view class="col">
+<image src="../../images/orderlist2.png"></image>
+<view>我收到的询盘</view></view>
+<view class="col">
+<image src="../../images/orderlist3.png"></image>
+<view>我的成交</view>
+</view>
+</view>
+<view class="row secondrow">
+<view class="col">
+<image src="../../images/orderlist4.png"></image>
+<view>我的询盘</view>
+</view>
+<view class="col">
+<image src="../../images/orderlist5.png"></image>
+<view>我的交收</view>
+</view>
+<view class="col">
+<image src="../../images/orderlist6.png"></image>
+<view>资金详情</view>
+</view>
+</view>
+</view>
 </view>

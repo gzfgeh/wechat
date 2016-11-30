@@ -1,0 +1,13 @@
+.mallSelect{text-align: center;border-bottom: 1px solid #f2f2f2;}
+.mallSelect .col {text-align: center;padding: 5px 0;border-left: 1px solid #f2f2f2;font-size: 14px}
+.mallSelect .col.active{color: #ea5251;}
+.mallSelect .col:first-child{border-left: 0}
+.malllists{padding: 8px 15px;border-bottom: 1px solid #f2f2f2}
+.malllists .col .minute{text-align: right;font-size: 12px;padding:5px}
+.malllists .col .state{padding: 5px;background: #ea5251;border-radius: 3px;font-size: 14px;color: #fff}
+.malllists .col .name{padding: 5px;color: #333;font-size: 16px;}
+.malllists .row .col{white-space: nowrap;padding: 0}
+.malllists .small{font-size: 12px;color: #999;margin-left: 3%}
+.malllists .secondrow{padding:0}
+.malllists .red-color{font-size: 12px;}
+.malllists .red-color:first-child{font-size: 16px;}

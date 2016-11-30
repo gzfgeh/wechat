@@ -1,3 +1,220 @@
-<view class="container">
-<text>商城</text>
+<!--筛选框-->
+<view class="mallSelect">
+<view class="row">
+<view  class="{{currentTab==0 ? 'active' : ''}} col" bindtap="changeState" data-current="0">
+级别
+</view>
+<view class="{{currentTab==1 ? 'active' : ''}} col" bindtap="changeState" data-current="1">
+产地
+</view>
+<view class="{{currentTab==2 ? 'active' : ''}} col" bindtap="changeState" data-current="2">
+交货地
+</view>
+<view class="{{currentTab==3 ? 'active' : ''}} col" bindtap="changeState" data-current="3">
+排序
+</view>
+<view class="{{currentTab==4 ? 'active' : ''}} col" bindtap="changeState" data-current="4">
+状态
+</view>
+</view>
+</view>
+<!--商城列表-->
+<view class="mallList">
+<view class="malllists">
+<view class="row">
+<view class="col ">
+<text class="state">现货</text>
+<text class="name">3型-SG-3-唐山三友</text>
+</view>
+<view class="col gray-color text-right">
+<text class="minute">20分钟前</text>
+</view>
+</view>
+<view class="row secondrow">
+<view class="col ">
+<text class="red-color">66</text>
+<text class="red-color">元/吨</text>
+<text class="small">2.75吨|武汉周黑鸭有限公司</text>
+</view>
+<view class="col gray-color text-right">
+<text class="minute">失效</text>
+</view>
+</view>
+</view>
+
+<view class="malllists">
+<view class="row">
+<view class="col ">
+<text class="state">现货</text>
+<text class="name">3型-SG-3-唐山三友</text>
+</view>
+<view class="col gray-color text-right">
+<text class="minute">20分钟前</text>
+</view>
+</view>
+<view class="row secondrow">
+<view class="col ">
+<text class="red-color">66</text>
+<text class="red-color">元/吨</text>
+<text class="small">2.75吨|武汉周黑鸭有限公司</text>
+</view>
+<view class="col gray-color text-right">
+<text class="minute">失效</text>
+</view>
+</view>
+</view>
+
+<view class="malllists">
+<view class="row">
+<view class="col ">
+<text class="state">现货</text>
+<text class="name">3型-SG-3-唐山三友</text>
+</view>
+<view class="col gray-color text-right">
+<text class="minute">20分钟前</text>
+</view>
+</view>
+<view class="row secondrow">
+<view class="col ">
+<text class="red-color">66</text>
+<text class="red-color">元/吨</text>
+<text class="small">2.75吨|武汉周黑鸭有限公司</text>
+</view>
+<view class="col green-color text-right">
+<text class="minute">成交</text>
+</view>
+</view>
+</view>
+
+<view class="malllists">
+<view class="row">
+<view class="col ">
+<text class="state">现货</text>
+<text class="name">3型-SG-3-唐山三友</text>
+</view>
+<view class="col gray-color text-right">
+<text class="minute">20分钟前</text>
+</view>
+</view>
+<view class="row secondrow">
+<view class="col ">
+<text class="red-color">66</text>
+<text class="red-color">元/吨</text>
+<text class="small">2.75吨|武汉周黑鸭有限公司</text>
+</view>
+<view class="col gray-color text-right">
+<text class="minute">失效</text>
+</view>
+</view>
+</view>
+
+<view class="malllists">
+<view class="row">
+<view class="col ">
+<text class="state">现货</text>
+<text class="name">3型-SG-3-唐山三友</text>
+</view>
+<view class="col gray-color text-right">
+<text class="minute">20分钟前</text>
+</view>
+</view>
+<view class="row secondrow">
+<view class="col ">
+<text class="red-color">66</text>
+<text class="red-color">元/吨</text>
+<text class="small">2.75吨|武汉周黑鸭有限公司</text>
+</view>
+<view class="col green-color text-right">
+<text class="minute">成交</text>
+</view>
+</view>
+</view>
+
+<view class="malllists">
+<view class="row">
+<view class="col ">
+<text class="state">现货</text>
+<text class="name">3型-SG-3-唐山三友</text>
+</view>
+<view class="col gray-color text-right">
+<text class="minute">20分钟前</text>
+</view>
+</view>
+<view class="row secondrow">
+<view class="col ">
+<text class="red-color">66</text>
+<text class="red-color">元/吨</text>
+<text class="small">2.75吨|武汉周黑鸭有限公司</text>
+</view>
+<view class="col blue-color text-right">
+<text class="minute">有效</text>
+</view>
+</view>
+</view>
+
+<view class="malllists">
+<view class="row">
+<view class="col ">
+<text class="state">现货</text>
+<text class="name">3型-SG-3-唐山三友</text>
+</view>
+<view class="col gray-color text-right">
+<text class="minute">20分钟前</text>
+</view>
+</view>
+<view class="row secondrow">
+<view class="col ">
+<text class="red-color">66</text>
+<text class="red-color">元/吨</text>
+<text class="small">2.75吨|武汉周黑鸭有限公司</text>
+</view>
+<view class="col gray-color text-right">
+<text class="minute">失效</text>
+</view>
+</view>
+</view>
+
+<view class="malllists">
+<view class="row">
+<view class="col ">
+<text class="state">现货</text>
+<text class="name">3型-SG-3-唐山三友</text>
+</view>
+<view class="col gray-color text-right">
+<text class="minute">20分钟前</text>
+</view>
+</view>
+<view class="row secondrow">
+<view class="col ">
+<text class="red-color">66</text>
+<text class="red-color">元/吨</text>
+<text class="small">2.75吨|武汉周黑鸭有限公司</text>
+</view>
+<view class="col blue-color text-right">
+<text class="minute">有效</text>
+</view>
+</view>
+</view>
+
+<view class="malllists">
+<view class="row">
+<view class="col ">
+<text class="state">现货</text>
+<text class="name">3型-SG-3-唐山三友</text>
+</view>
+<view class="col gray-color text-right">
+<text class="minute">20分钟前</text>
+</view>
+</view>
+<view class="row secondrow">
+<view class="col ">
+<text class="red-color">66</text>
+<text class="red-color">元/吨</text>
+<text class="small">2.75吨|武汉周黑鸭有限公司</text>
+</view>
+<view class="col blue-color text-right">
+<text class="minute">有效</text>
+</view>
+</view>
+</view>
 </view>
