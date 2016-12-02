@@ -1,4 +1,4 @@
-.mallSelect{text-align: center;border-bottom: 1px solid #f2f2f2;}
+.mallSelect{text-align: center;border-bottom: 1px solid #f2f2f2;position: relative;}
 .mallSelect .col {text-align: center;padding: 5px 0;border-left: 1px solid #f2f2f2;font-size: 14px}
 .mallSelect .col.active{color: #ea5251;}
 .mallSelect .col:first-child{border-left: 0}
@@ -11,3 +11,14 @@
 .malllists .secondrow{padding:0}
 .malllists .red-color{font-size: 12px;}
 .malllists .red-color:first-child{font-size: 16px;}
+.mallgrade{position: absolute;left: 0;right: 0;top:38px;background: #fff;z-index: 10;}
+.mallgrade .gradelist{border-bottom: 1px solid #f2f2f2;padding: 10px 16px;display: block;}
+/*.mallgrade .mallright{border: 4px solid #fff;
+    border-top-width: 0;
+    border-right-width: 0; 
+    width: 18px;
+    height: 10px;
+    -webkit-transform: rotate(-50deg);
+    position: absolute;
+    top:6px;
+    left:4px;}*/

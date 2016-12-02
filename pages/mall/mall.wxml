@@ -18,9 +18,40 @@
 </view>
 </view>
 </view>
+<view class="mallgrade">
+<!--<view wx:for="{{category}}" class="gradelist">{{item.name}}</view>-->
+<checkbox-group bindchange="checkboxChange" >
+  <label class="checkbox" wx:for="{{category}}" class="gradelist">
+    <checkbox value="{{item.id}}" checked="{{checked}}"/>{{item.name}}
+    <view class="mallright"></view>
+  </label>
+</checkbox-group>
+</view>
 <!--商城列表-->
 <view class="mallList">
-<view class="malllists">
+<view class="malllists" bindtap="bindViewTap">
+<view class="row" >
+<view class="col ">
+<text class="state">现货</text>
+<text class="name">3型-SG-3-唐山三友</text>
+</view>
+<view class="col gray-color text-right">
+<text class="minute">20分钟前</text>
+</view>
+</view>
+<view class="row secondrow">
+<view class="col ">
+<text class="red-color">66</text>
+<text class="red-color">元/吨</text>
+<text class="small">2.75吨|武汉周黑鸭有限公司</text>
+</view>
+<view class="col gray-color text-right">
+<text class="minute">失效</text>
+</view>
+</view>
+</view>
+
+<view class="malllists" bindtap="bindViewTap">
 <view class="row">
 <view class="col ">
 <text class="state">现货</text>
@@ -42,29 +73,7 @@
 </view>
 </view>
 
-<view class="malllists">
-<view class="row">
-<view class="col ">
-<text class="state">现货</text>
-<text class="name">3型-SG-3-唐山三友</text>
-</view>
-<view class="col gray-color text-right">
-<text class="minute">20分钟前</text>
-</view>
-</view>
-<view class="row secondrow">
-<view class="col ">
-<text class="red-color">66</text>
-<text class="red-color">元/吨</text>
-<text class="small">2.75吨|武汉周黑鸭有限公司</text>
-</view>
-<view class="col gray-color text-right">
-<text class="minute">失效</text>
-</view>
-</view>
-</view>
-
-<view class="malllists">
+<view class="malllists" bindtap="bindViewTap">
 <view class="row">
 <view class="col ">
 <text class="state">现货</text>
@@ -218,3 +227,4 @@
 </view>
 </view>
 </view>
+

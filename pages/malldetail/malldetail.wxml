@@ -1,0 +1,70 @@
+	<view class="mall_list white-bg">
+			<view class="row firstRow">
+				<view class="col "><text class="cus-tag red-bg">成交</text> <span class="cus-category">3型-SG-3</span> </view>
+				<view class="col col-right">1小时前</view>
+			</view>
+			<view class="mall_detail">
+			<view class="row ">
+				<view class="col col-33">类型</view>
+				<view class="col">现货</view>
+			</view>
+			<view class="row">
+				<view class="col col-33">投放企业</view>
+				<view class="col"></view>
+			</view>
+			<view class="row">
+				<view class="col col-33">产地</view>
+				<view class="col">唐山三友</view>
+			</view>
+			<view class="row">
+				<view class="col col-33">总量</view>
+				<view class="col">2吨</view>
+			</view>
+			<view class="row">
+				<view class="col col-33">可售量</view>
+				<view class="col cus-green">0吨</view>
+			</view>
+			<view class="row">
+				<view class="col col-33">最小交收量</view>
+				<view class="col">1吨</view>
+			</view>
+			<view class="row">
+				<view class="col col-33">交易单位</view>
+				<view class="col">1吨/批</view>
+			</view>
+			<view class="row">
+				<view class="col col-33">价格</view>
+				<view class="col cus-red">5元/吨</view>
+			</view>
+			<view class="row">
+				<view class="col col-33">交货地</view>
+				<view class="col">上海宝山18号</view>
+			</view>
+			<view class="row">
+				<view class="col col-33">联系人</view>
+				<view class="col">谢颖妍-021-61438266-204</view>
+			</view>
+			<view class="row">
+				<view class="col col-33">交收方式</view>
+				<view class="col">成交日起四日内自提或转货权</view>
+			</view>
+			<view class="row">
+				<view class="col col-33">到货日期</view>
+				<view class="col mall-date ">2016/12/02-2016/12/02</view>
+			</view>
+			<view class="row">
+				<view class="col col-33">买家提货附加费</view>
+				<view class="col mall-charge ">0元/吨</view>
+			</view>
+			<view class="row">
+				<view class="col col-33">保证金</view>
+				<view class="col mall-sure ">5%</view>
+			</view>
+			</view>
+		</view>
+        <view class="mallbutton">
+<view class="row">
+<view class="col"><button>询盘</button></view>
+<view class="col"><button>下单</button></view>
+</view>
+</view>

@@ -9,7 +9,7 @@
 </swiper>
 <!--图标区-->
 <view class="section">
- <view class="section-item">
+ <view class="section-item" >
  <image src="../../images/mainlist_1.png"></image>
  <text class="section_title">实时报盘</text>
  </view>
@@ -61,25 +61,25 @@
             </view>
 </view>
 <view class="cus-main-table">
-<view class="row">
+<view class="row" bindtap="bindViewTap">
 <view class="col text-center">4902T</view>
 <view class="col text-center">上海浦东</view>
 <view class="col text-center green-color">29吨</view>
 <view class="col text-center red-color">200元/吨</view>
 </view>
-<view class="row">
+<view class="row " bindtap="bindViewTap">
 <view class="col text-center">4902T</view>
 <view class="col text-center">上海浦东</view>
 <view class="col text-center green-color">29吨</view>
 <view class="col text-center red-color">200元/吨</view>
 </view>
-<view class="row">
+<view class="row" bindtap="bindViewTap">
 <view class="col text-center">4902T</view>
 <view class="col text-center">上海浦东</view>
 <view class="col text-center green-color">29吨</view>
 <view class="col text-center red-color">200元/吨</view>
 </view>
-<view class="row">
+<view class="row" bindtap="bindViewTap">
 <view class="col text-center">4902T</view>
 <view class="col text-center">上海浦东</view>
 <view class="col text-center green-color">29吨</view>

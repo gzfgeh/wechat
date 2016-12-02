@@ -20,6 +20,14 @@
     -moz-box-flex: 1;
     -moz-flex: 1;
     -ms-flex: 1;display: block;padding: 5px;width: 100%;}
+.col-33{
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.3333%;
+    -moz-box-flex: 0;
+    -moz-flex: 0 0 33.3333%;
+    -ms-flex: 0 0 33.3333%;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;}
 .red-color{color: #ea5251;}
 .green-color{color: #45a162}
 .gray-color{color: #999999}

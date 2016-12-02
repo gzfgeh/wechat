@@ -1,0 +1,13 @@
+/* pages/mainDetail/maindetail.wxss */
+.red-bg-font{background: #ea5251!important;color: #fff!important;}
+.mall_list .col-right{text-align:right;max-width:120px;padding:7px 15px 5px 0!important;color:#999;font-size: 14px;}
+.mall_list .col-33{max-width: 125px;color: #999999;font-size: 14px;}
+.mall_list .row .col{padding: 5px 0px 5px 0px;}
+.pad_16{padding-right: 16px!important ;}
+.mall_list .row{border-bottom: 1px solid #f0f1f5;}
+.mall_detail{padding: 0 16px;}
+.mall_detail .row .col{font-size: 14px;}
+.mall_list .firstRow{border-bottom:10px solid #f0f1f5!important;margin-bottom:16px;padding: 10px 0;white-space: nowrap;}
+.cus-tag{color:#fff;padding:4px;border-radius: 4px;font-size: 14px;margin-left: 16px;}
+.cus-category{font-size: 20px;color: #333;}
+.red-bg{background: #EA5251;}
