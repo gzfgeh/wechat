@@ -18,7 +18,7 @@
 </view>
 </view>
 </view>
-<view class="mallgrade">
+<view class="mallgrade" hidden="{{currentTab==0 ?false : true}}">
 <!--<view wx:for="{{category}}" class="gradelist">{{item.name}}</view>-->
 <checkbox-group bindchange="checkboxChange" >
   <label class="checkbox" wx:for="{{category}}" class="gradelist">
