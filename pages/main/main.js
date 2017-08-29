@@ -14,6 +14,7 @@ Page({
   onLoad:function(){
     var that = this;
     mainService.getTopInforData(function(res){
+      
         that.setData({
           imgUrls:res
         })
